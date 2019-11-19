@@ -1,0 +1,442 @@
+#0 idn test - 6220 %
+*idn?
+ENTER1024
+#1 2182 idn test%
+:SYST:COMM:SERIal:SEND "*idn?"
+WAIT1000
+:SYST:COMM:SERIal:enter?
+WAIT1000
+ENTER2000
+#2 Display query for output off 1%
+:disp:data?
+ENTER256
+:disp:wind2:data?
+ENTER256
+:outp:stat?
+ENTER256
+:disp:attr?
+ENTER256
+:disp:wind2:attr?
+ENTER256
+#3 KEY PRESS 2%
+:syst:key <KEYPRESS>
+#4 DELTA DATA NEXT QUERY 3%
+:trac:poin:act?
+ENTER256
+#5 Wave append 4%
+:sour:wave:arb:append <APPEND>
+WAIT30
+#6 RST 2%
+*rst
+#7 DISPLAY QUERY%
+:disp:data?
+ENTER256
+:disp:wind2:data?
+ENTER256
+:outp:stat?
+ENTER256
+:disp:attr?
+ENTER256
+:disp:wind2:attr?
+ENTER256
+#8 UPLOAD WAVE -waveform data format {#,#,#} %
+sour:swe:abort
+WAIT500
+SOUR:WAVE:ABOR
+WAIT500
+outp:stat off
+sour:wave:ampl <AMPLITUDE>
+sour:wave:offs <OFFSET>
+sour:wave:arb:data <WAVEFORM>
+WAIT300
+#9 RUN WAVE%
+SOUR:WAVE:ABOR
+WAIT300
+:outp:stat off
+*rst
+<SETUPSTRING>
+WAIT500
+sour:wave:arb:copy 1
+WAIT3000
+sour:wave:func ARB0
+WAIT1000
+sour:wave:rang best
+sour:wave:pmar:stat <PMARK_ENABLE>
+sour:wave:pmar <PMARK>
+:trig:olin <TRIGGERLINE+1>
+sour:wave:pmar:olin <TRIGGERLINE>
+sour:wave:freq <FREQUENCY>
+sour:wave:dur:time <DURATION>
+:sour:curr:comp <ARBCOMP>
+sour:wave:arm
+WAIT2000
+:outp:stat on
+WAIT500
+sour:wave:init
+#10 STOP WAVE%
+SOUR:WAVE:ABOR
+outp:stat off
+#11 test for arb in 6221%
+sour:wave:arb:poin?
+ENTER256
+#12 DELTA TEST%
+:sour:delta:nvpr?
+ENTER256
+#13 DCON TEST%
+:sour:dcon:nvpr?
+ENTER256
+#14 PULSED TEST%
+:SYST:COMM:SERIal:SEND "*rst"
+WAIT1500
+:sour:pdel:nvpr?
+ENTER256
+#15 RUN ARB ERROR%
+SOUR:WAVE:ABOR
+outp:stat off
+*rst
+#16 DELTA RUN%
+:sour:swe:abort
+:sour:wave:abor
+*rst
+<SETUPSTRING>
+WAIT500
+:form:elem READ,TST,RNUM,AVOL
+:sour:delt:high <DELTAHIGH>
+:sour:delt:low <DELTALOW>
+:sour:delt:count <DELTANUMCYCLE>
+:sour:delt:delay <DELTADELAY>
+:sour:curr:filt:stat <DELTADAMPING>
+:sour:curr:comp <DELTACOMP>
+:sour:curr:rang <DELTACURRRANGE>
+:SYST:COMM:SERIal:SEND "*rst"
+WAIT400
+:SYST:COMM:SERIal:SEND ":sens:volt:nplc <DELTANPLC>"
+WAIT1500
+:SYST:COMM:SERIal:SEND ":sens:volt:rang <DELTAVOLTRANGE>"
+:sens:aver:wind 0
+:sens:aver:stat <DELTAFILTERSTATE>
+:sens:aver:coun <DELTAFILTERCOUNT>
+:sens:aver:tcon <DELTAFILTERTYPE>
+:sour:delt:arm
+WAIT1000
+:init:imm
+#17 DELTA ABORT%
+:sour:swe:abort
+:outp:stat off
+#18 DELTA RUN ERROR -repeat above???%
+:sour:swe:abort
+:outp:stat off
+#19 DELTA/PULSE DATA COLLECT%
+:trac:data:sel? <DATASTART>,<DATACOUNT>
+ENTER40000
+#20 PULSE RUN %
+:sour:swe:abort
+WAIT3000
+*rst
+<SETUPSTRING>
+WAIT500
+:form:elem READ,TST,RNUM,SOUR
+:sour:pdel:high <PULSEHIGH>
+:sour:pdel:low <PULSEOFF>
+:sour:pdel:count <PULSECOUNT>
+:sour:pdel:rang best
+:sour:swe:rang best
+:sour:pdel:width <PULSEWIDTH>
+:sour:pdel:sdel <PULSEDELAY>
+:sour:pdel:swe <PULSESWEEPSTATE>
+:sour:pdel:lme <PULSELOWMEAS>
+:sour:pdel:int <PULSEINTERVAL>
+:sour:curr:comp <PULSECOMP>
+:sour:swe:spac <PULSESWEEPSPACING>
+:sour:curr:start <PULSESWEEPSTART>
+:sour:curr:stop <PULSESWEEPSTOP>
+:sour:curr:step <PULSESWEEPSTEP>
+:SYST:COMM:SERIal:SEND ":sens:volt:rang <PULSEVOLTRANGE>"
+:sens:aver:wind 0
+:sens:aver:stat <PULSEFILTERSTATE>
+:sens:aver:coun <PULSEFILTERCOUNT>
+:sens:aver:tcon <PULSEFILTERTYPE>
+:sour:pdel:arm
+WAIT3000
+:init:imm
+#21 PULSE ABORT%
+:sour:swe:abort
+:outp:stat off
+#22 PULSE RUN ERROR -repeat above???%
+:sour:swe:abort
+#23 DCON DATA COLLECT%
+:trac:data:sel? 0,<DATACOUNT>
+ENTER4000000
+#24 DCON RUN %
+:sour:swe:abort
+*rst
+<SETUPSTRING>
+WAIT500
+:form:elem READ,TST,RNUM,SOUR,AVOL
+:sour:dcon:start <DCONSTART>
+:sour:dcon:stop <DCONSTOP>
+:sour:dcon:step <DCONSTEP>
+:sour:dcon:del <DCONDELAY>
+:sour:dcon:delt <DCONDELTA>
+:sour:curr:comp <DCONCOMP>
+:sour:curr:filt:stat <DCONDAMPING>
+:SYST:COMM:SERIal:SEND ":sens:volt:rang <DCONVOLTRANGE>"
+WAIT700
+:SYST:COMM:SERIal:SEND ":sens:volt:nplc <DCONNPLC>"
+WAIT500
+:sens:aver:wind 0
+:sens:aver:stat <DCONFILTERSTATE>
+:sens:aver:coun <DCONFILTERCOUNT>
+:sens:aver:tcon REPEAT
+WAIT2000
+:sour:dcon:arm
+WAIT3000
+:init:imm
+#25 DCON ABORT%
+:sour:swe:abort
+:outp:stat off
+#26 DCON RUN ERROR -repeat above???%
+:sour:swe:abort
+#27 DCON SETUP single 2182 reading for auto test algorithm %
+:sour:swe:abort
+WAIT2000
+:outp:stat off
+*rst
+WAIT1000
+:sour:curr:comp <AUTOCOMP>
+:sour:curr:filt:stat <DCONDAMPING>
+:SYST:COMM:SERIal:SEND "*rst"
+WAIT800
+:SYST:COMM:SERIal:SEND ":sens:volt:rang <DCONVOLTRANGE>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:rang:auto on"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:nplc <DCONNPLC>"
+WAIT200
+:SYST:COMM:SERIal:enter?
+ENTER256
+#28 DCON RUN - for auto test algorithm ----%
+:sour:curr:rang <STARTLEVEL>
+:sour:curr:lev <STARTLEVEL>
+:outp:stat on
+WAIT200
+:sour:curr:rang <CURRENTLEVEL>
+:sour:curr:lev <CURRENTLEVEL>
+WAIT500
+:SYST:COMM:SERIal:SEND ":read?"
+WAIT1000
+:SYST:COMM:SERIal:enter?
+ENTER512
+#29 basic DC SOURCE%
+:sour:curr:rang <SOURCE>
+:sour:curr:lev <SOURCE>
+:sour:curr:comp <COMPLIANCE>
+:outp:stat <OUTPUT>
+#30 basic DC Sweep RUN%
+:sour:swe:abort
+*rst
+WAIT2000
+<SETUPSTRING>
+WAIT1000
+:sour:swe:spac <SPACING>
+:sour:swe:poin <POINTS>
+:sour:swe:coun 1
+:sour:swe:cab off
+:sour:curr:start <STARTLEVEL>
+:sour:curr:stop <STOPLEVEL>
+:sour:curr:comp <COMPLIANCE>
+:sour:del <DELAY>
+WAIT1000
+:sour:swe:arm
+WAIT3000
+:init:imm
+#31 basic DC Sweep STOP%
+:sour:swe:abort
+:outp:stat off
+#32 basic AC Source RUN%
+#33 basic AC Source STOP%
+#34 wAIT%
+WAIT2000
+#35 DC sweep w measure RUN%
+:sour:swe:abort
+*rst
+WAIT2000
+:SYST:COMM:SERIal:SEND "*rst"
+<SETUPSTRING>
+WAIT1000
+:sour:swe:spac <SPACING>
+:sour:swe:poin <POINTS>
+:sour:swe:coun 1
+:sour:swe:cab off
+:sour:curr:start <STARTLEVEL>
+:sour:curr:stop <STOPLEVEL>
+:sour:curr:comp <COMPLIANCE>
+:sour:del <DELAY>
+:trig:sour tlink
+:trig:dir sour
+:trig:olin 2
+:trig:ilin 1
+:trig:outp del
+:SYST:COMM:SERIal:SEND ":sens:volt:rang <VOLTRANGE>"
+WAIT400
+:SYST:COMM:SERIal:SEND ":sens:volt:nplc <NPLC>"
+WAIT400
+:SYST:COMM:SERIal:SEND ":trac:cle"
+WAIT200
+:SYST:COMM:SERIal:SEND ":trac:feed sens"
+WAIT200
+:SYST:COMM:SERIal:SEND ":trac:poin <POINTS>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":trig:sour ext"
+WAIT200
+:SYST:COMM:SERIal:SEND ":trig:coun <POINTS>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":trac:feed:control next"
+WAIT500
+:sour:swe:arm
+WAIT2000
+:init:imm
+:SYST:COMM:SERIal:SEND "init"
+#36 DC sweep w measure STOP%
+:sour:swe:abort
+:outp:stat off
+*rst
+:SYST:COMM:SERIal:SEND "*rst"
+:trig:olin 4
+#37 DC source setup %
+*idn?
+ENTER1024
+:sour:swe:abort
+*rst
+<SETUPSTRING>
+WAIT1000
+#38 dc sweep data collect%
+:SYST:COMM:SERIal:SEND ":trac:data?"
+WAIT200
+:SYST:COMM:SERIal:enter?
+ENTER255
+#39 BASIC RAMP AC%
+:sour:wave:abor
+WAIT300
+:outp:stat off
+*rst
+WAIT2000
+<SETUPSTRING>
+:sour:curr:comp <ACCOMPLIANCE>
+:sour:wave:func ramp
+:sour:wave:rang best
+:sour:wave:dcycle <RAMPDUTYCYCLE>
+:sour:wave:offset <RAMPOFFSET>
+:sour:wave:ampl <RAMPAMPLITUDE>
+:sour:wave:freq <FREQUENCY>
+:sour:wave:dur:time inf
+:sour:wave:arm
+WAIT3000
+:sour:wave:init
+#40 BASIC SQUARE AC%
+:sour:wave:abor
+WAIT300
+:outp:stat off
+*rst
+WAIT2000
+<SETUPSTRING>
+WAIT500
+:sour:curr:comp <ACCOMPLIANCE>
+:sour:wave:func square
+:sour:wave:dcycle <SQUAREDUTYCYCLE>
+:sour:wave:offset <SQUAREOFFSET>
+:sour:wave:ampl <SQUAREAMPLITUDE>
+:sour:wave:freq <FREQUENCY>
+:sour:wave:rang best
+:sour:wave:dur:time inf
+:sour:wave:arm
+WAIT3000
+:sour:wave:init
+#41 BASIC SINE AC%
+:sour:wave:abor
+WAIT300
+:outp:stat off
+*rst
+WAIT2000
+<SETUPSTRING>
+WAIT500
+:sour:curr:comp <ACCOMPLIANCE>
+:sour:wave:func sin
+:sour:wave:offset <SINEOFFSET>
+:sour:wave:ampl <SINEAMPLITUDE>
+:sour:wave:freq <FREQUENCY>
+:sour:wave:rang best
+:sour:wave:dur:time inf
+:sour:wave:arm
+WAIT3000
+:sour:wave:init
+#42 DC DELTA DEMO SETUP%
+*rst
+<DEMOSETUPSTRING>
+:sour:curr:rang <DEMOSOURCE>
+:sour:curr:lev <DEMOSOURCE>
+:sour:curr:comp <DEMOCOMP>
+:outp:stat on
+:syst:comm:serial:send "*rst"
+WAIT200
+:syst:comm:serial:send ":sens:volt:rang <DEMORANGE>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:nplc <DEMODELTANPLC>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:dfil:window 0"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:dfil:tcon <DEMOFTYPE>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:dfil:state <DEMOFSTATE>"
+WAIT200
+:SYST:COMM:SERIal:SEND ":sens:volt:dfil:count <DEMOFCOUNT>"
+WAIT3000
+#43 DELTA DELTA DEMO SETUP%
+:sour:swe:abort
+:sour:wave:abor
+*rst
+<DEMOSETUPSTRING>
+WAIT500
+:form:elem READ
+:sour:delt:high <DEMOSOURCE>
+:sour:delt:low <DELTALOW>
+:sour:delt:count 60000
+:sour:delt:delay <DELTADELAY>
+:sour:curr:filt:stat <DELTADAMPING>
+:sour:curr:comp <DEMOCOMP>
+:sour:curr:rang <DELTACURRRANGE>
+:SYST:COMM:SERIal:SEND "*rst"
+WAIT400
+:SYST:COMM:SERIal:SEND ":sens:volt:nplc <DEMODELTANPLC>"
+WAIT1500
+:SYST:COMM:SERIal:SEND ":sens:volt:rang <DEMORANGE>"
+:sens:aver:wind 0
+:sens:aver:stat <DEMOFSTATE>
+:sens:aver:coun <DEMOFCOUNT>
+:sens:aver:tcon <DEMOFTYPE>
+:sour:delt:arm
+WAIT1000
+:init:imm
+WAIT2000
+#44 DELTA DEMO STOP%
+:sour:swe:abort
+WAIT1000
+:outp:stat off
+*rst
+WAIT1000
+:syst:comm:serial:send "*rst"
+WAIT1000
+#45 %
+:outp:stat on
+#46 %
+:sour:curr:lev?
+ENTER256
+#47 %
+:syst:comm:serial:enter?
+ENTER300
+#48%
+:stat:oper:event?
+ENTER300
+#49%
+
+#50%
