@@ -35,10 +35,13 @@
 				<Item Name="3DMathPlot State Class.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot State Class.ctl"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
@@ -53,9 +56,17 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
@@ -63,6 +74,11 @@
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="AH Bridge Avg Times.vi" Type="VI" URL="../../../../New NML Data Acq/Instruments/SubVIs/AH Bridge Avg Times.vi"/>
@@ -75,9 +91,12 @@
 			<Item Name="Extract Doubles.vi" Type="VI" URL="../../../../Sub VIs/Extract Doubles.vi"/>
 			<Item Name="Factory Reset.ctl" Type="VI" URL="../../../../New NML Data Acq/Sub Controls/Factory Reset.ctl"/>
 			<Item Name="Find Address Match.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Find Address Match.vi"/>
+			<Item Name="Find Local NHMFL ENET Address.vi" Type="VI" URL="../../../../Sub VIs/Find Local NHMFL ENET Address.vi"/>
 			<Item Name="Find Name List.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Find Name List.vi"/>
 			<Item Name="General VISA transaction.vi" Type="VI" URL="../../../General VISA transaction.vi"/>
 			<Item Name="Get Instrument Paths.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Get Instrument Paths.vi"/>
+			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../../../Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
+			<Item Name="Get System Name.vi" Type="VI" URL="../../../../NHMFL SCM PS Control/Get System Name.vi"/>
 			<Item Name="GPIB Set Timeout.vi" Type="VI" URL="../../../GPIB Set Timeout.vi"/>
 			<Item Name="Inst Prop New.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Inst Prop New.vi"/>
 			<Item Name="Instrument Actions.ctl" Type="VI" URL="../../../../New NML Data Acq/Sub Controls/Instrument Actions.ctl"/>
@@ -106,11 +125,18 @@
 			<Item Name="Private.ctl" Type="VI" URL="../../../../New NML Data Acq/Sub Controls/Private.ctl"/>
 			<Item Name="Properties-Set Public.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Properties-Set Public.vi"/>
 			<Item Name="Public.ctl" Type="VI" URL="../../../../New NML Data Acq/Sub Controls/Public.ctl"/>
+			<Item Name="Record Instruments.vi" Type="VI" URL="../../../../Sub VIs/Record Instruments.vi"/>
 			<Item Name="Scan Instrument Info.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Scan Instrument Info.vi"/>
 			<Item Name="Scan Output.ctl" Type="VI" URL="../../../../New NML Data Acq/Sub Controls/Scan Output.ctl"/>
 			<Item Name="Set Random Colors.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Set Random Colors.vi"/>
 			<Item Name="Set VI Ref.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Set VI Ref.vi"/>
 			<Item Name="SetupGlobals.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/SetupGlobals.vi"/>
+			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../../../Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
+			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../../../Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
+			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../../../Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
 			<Item Name="SIM900 Module Comm.vi" Type="VI" URL="../../../../New NML Data Acq/Instruments/SubVIs/SIM900 Module Comm.vi"/>
 			<Item Name="SystemCheckBox-resize.ctl" Type="VI" URL="../../../../New NML Data Acq/Sub Controls/SystemCheckBox-resize.ctl"/>
 			<Item Name="Title-Add.vi" Type="VI" URL="../../../../New NML Data Acq/SubVIs/Title-Add.vi"/>

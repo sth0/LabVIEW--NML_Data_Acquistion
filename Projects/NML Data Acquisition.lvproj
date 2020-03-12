@@ -1418,6 +1418,10 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Write Config File to Scarab.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/Scarab/Write Config File to Scarab.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
@@ -1438,8 +1442,6 @@
 			<Item Name="CoreFoundation.framework" Type="Document" URL="CoreFoundation.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Extract Double From String.vi" Type="VI" URL="../../Shared/NML Data Acquisition/Sub VIs/Extract Double From String.vi"/>
-			<Item Name="Generate Timed Ramp.vi" Type="VI" URL="../../Shared/NML Data Acquisition/Sub VIs/Generate Timed Ramp.vi"/>
 			<Item Name="Get Instrument Paths.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Get Instrument Paths.vi"/>
 			<Item Name="gGeneral.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gGeneral.vi"/>
 			<Item Name="Global Varibal Control.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Global Varibal Control.vi"/>
@@ -1477,8 +1479,6 @@
 			<Item Name="MeasureVDP_onePoint.vi" Type="VI" URL="../../AlexeySubVi/VanDerPauw/MeasureVDP_onePoint.vi"/>
 			<Item Name="NML Data Acq Globals.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/NML Data Acq Globals.vi"/>
 			<Item Name="NML VISA Bus Scan.vi" Type="VI" URL="../../New NML Data Acq/NML VISA Bus Scan.vi"/>
-			<Item Name="NML VISA Close.vi" Type="VI" URL="../../Shared/NML Data Acquisition/VISA stuff/NML VISA Close.vi"/>
-			<Item Name="NML VISA Open Conditional.vi" Type="VI" URL="../../Shared/NML Data Acquisition/VISA stuff/NML VISA Open Conditional.vi"/>
 			<Item Name="OperationMode.ctt" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Type Definitions.llb/OperationMode.ctt"/>
 			<Item Name="Prepend &apos;+&apos;  - VIServer Example.vi" Type="VI" URL="../../NHMFL Optics/xwei previous work/Sub VI&apos;s/Server/server.llb/Prepend &apos;+&apos;  - VIServer Example.vi"/>
 			<Item Name="Private.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Private.ctl"/>
@@ -1495,7 +1495,6 @@
 			<Item Name="SIM921 Delete Curve.vi" Type="VI" URL="../../New NML Data Acq/Instruments/SubVIs/SIM921 Delete Curve.vi"/>
 			<Item Name="SystemCheckBox-resize.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/SystemCheckBox-resize.ctl"/>
 			<Item Name="Variant2Integer.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Variant2Integer.vi"/>
-			<Item Name="VISA GPIB Write-Read.vi" Type="VI" URL="../../Shared/NML Data Acquisition/VISA stuff/VISA GPIB Write-Read.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

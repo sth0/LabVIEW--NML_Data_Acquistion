@@ -1,0 +1,9 @@
+----------    Wait 12 hrs, 1 hr condense at 45 K, cool dn sorb (set to 0.1 K and turn off power)  
+Wait for 12 hour
+Set Temperature LS336 ( GPIB0::12::INSTR ) 45 K at 0 K/min, Output 1
+Wait for 60 s
+Wait for Temperature Less than 1.8 K Sensor C of LS336 ( GPIB0::14::INSTR ) Timeout 30 min
+Wait for 60 min
+Set Temperature LS336 ( GPIB0::12::INSTR ) 0.1 K at 0 K/min, Output 1
+Set LakeShore336 ( GPIB0::12::INSTR ) off loop1
+END SEQUENCE
