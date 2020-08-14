@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="19008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
+<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="20008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for LabVIEW Plug and Play instrument drivers.</Property>
@@ -36,7 +36,6 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -73,6 +72,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7DDAAD8C-2A84-4F9F-B8FD-2D4460389E91}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E5EE311B-7262-4395-A229-11FB20C61F28}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FA02B437-A83F-11E1-992A-C82A144278CA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Simple Measure</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -144,6 +144,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{6E20B23D-FF58-4EF9-901C-134C4D41DF85}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{94C7529C-0089-4797-A750-96E69F1E37CE}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FA03C1DD-A83F-11E1-992A-C82A144278CA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Deviation Mode</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
