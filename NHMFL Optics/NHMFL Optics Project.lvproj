@@ -186,8 +186,8 @@
 				<Item Name="MSeries.Typedef.ScanClock.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.ScanClock.ctl"/>
 				<Item Name="MSeries.Typedef.StartTrigger.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.StartTrigger.ctl"/>
 				<Item Name="MSeries.Typedef.TimingMode.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.TimingMode.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
