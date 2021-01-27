@@ -15,6 +15,9 @@
 		<Item Name="AlexeySubVi" Type="Folder" URL="../../AlexeySubVi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="New NML Data Acq" Type="Folder" URL="../../New NML Data Acq">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="NHMFL SCM PS Control" Type="Folder" URL="../../NHMFL SCM PS Control">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -50,11 +53,58 @@
 		<Item Name="Probe cooling rate.vi" Type="VI" URL="../../Probe cooling rate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Empty 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (String)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Empty 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (CDB)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (CSG)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (CXT)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (EXT)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I8)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I16)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I32)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I64)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (Path)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (SGL)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (String)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U8)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U16)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U32)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U64)__ogtk.vi"/>
+				<Item Name="Empty 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (Variant)__ogtk.vi"/>
+				<Item Name="Empty Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array (Variant)__ogtk.vi"/>
+				<Item Name="Empty Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array__ogtk.vi"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
 				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
@@ -67,6 +117,7 @@
 				<Item Name="3DMathPlot Ctrl Act Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Cluster.ctl"/>
 				<Item Name="3DMathPlot Ctrl Act Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Queue.ctl"/>
 				<Item Name="3DMathPlot State Class.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot State Class.ctl"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="67xx Board.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/_LVRLP/Boards/67xx Board.vi"/>
 				<Item Name="67xx DIO IO.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/67xx DIO IO.ctl"/>
 				<Item Name="67xx Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/67xx Globals.vi"/>
@@ -165,6 +216,7 @@
 				<Item Name="_FormatFromData.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData.vi"/>
 				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
 				<Item Name="Add Remote Target Identifier.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Add Remote Target Identifier.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="AI Channel Info.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/AI Channel Info.ctl"/>
 				<Item Name="AI Device Information.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/DeviceInfo/AI Device Information.ctl"/>
 				<Item Name="AI Range.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/AI Range.ctl"/>
@@ -830,6 +882,7 @@
 				<Item Name="Get_Channel_923xExcCoup.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Properties/ChannelProperties/Get_Channel_923xExcCoup.vi"/>
 				<Item Name="GetDateTimeInSecsCompatVI.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/GetDateTimeInSecsCompatVI.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="GetSSeriesModel.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Settings/GetSSeriesModel.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
@@ -847,6 +900,7 @@
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="LV70U32ToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70U32ToDateRec.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MemStats.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/MemStats.vi"/>
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
@@ -1064,7 +1118,13 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__autopid compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__autopid compat.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
@@ -1126,6 +1186,7 @@
 				<Item Name="Scale i32 Data to f64.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Scale i32 Data to f64.vi"/>
 				<Item Name="Scale u16 Data to f64.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Scale u16 Data to f64.vi"/>
 				<Item Name="Scarab Types.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/Scarab/Scarab Types.ctl"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="Semaphore Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB Action.ctl"/>
 				<Item Name="Semaphore Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB.vi"/>
@@ -1138,6 +1199,9 @@
 				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set Scarab Personality.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/Scarab/Set Scarab Personality.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -1383,6 +1447,7 @@
 				<Item Name="USB-621x Stop SLIC Programmer.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Stop SLIC Programmer.vi"/>
 				<Item Name="USB-621x Update DIO masks.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Update DIO masks.vi"/>
 				<Item Name="USB-621x Visa Timeout to Base Error.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Visa Timeout to Base Error.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="Validate_ActiveChan.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Properties/ChannelProperties/Validate_ActiveChan.vi"/>
 				<Item Name="VariantFlattenExp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantFlattenExp.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
@@ -1418,7 +1483,6 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="3 way Status.ctl" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Type Definitions.llb/3 way Status.ctl"/>
-			<Item Name="Append eol.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Append eol.vi"/>
 			<Item Name="ApplicationServices.framework" Type="Document" URL="ApplicationServices.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1429,17 +1493,10 @@
 			<Item Name="CoreFoundation.framework" Type="Document" URL="CoreFoundation.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Instrument Paths.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Get Instrument Paths.vi"/>
 			<Item Name="gGeneral.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gGeneral.vi"/>
 			<Item Name="Global Varibal Control.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Global Varibal Control.vi"/>
 			<Item Name="gStatus.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gStatus.vi"/>
 			<Item Name="gTemperature.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gTemperature.vi"/>
-			<Item Name="Inst Prop New.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Inst Prop New.vi"/>
-			<Item Name="Instrument Actions.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Instrument Actions.ctl"/>
-			<Item Name="Instrument IDN.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Instrument IDN.ctl"/>
-			<Item Name="Instrument New Call.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Instrument New Call.vi"/>
-			<Item Name="Instrument Properties.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Instrument Properties.ctl"/>
-			<Item Name="Instrument Ref.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Instrument Ref.ctl"/>
 			<Item Name="K2450 Read Current.vi" Type="VI" URL="../../VISA stuff/Misc Extras/Keithley 2450 Sweep/K2450 Read Current.vi"/>
 			<Item Name="lib67xx.framework" Type="Document" URL="lib67xx.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1465,24 +1522,11 @@
 			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
 			<Item Name="lvsound2.framework" Type="Document" URL="/&lt;resource&gt;/lvsound2.framework"/>
 			<Item Name="MeasureVDP_onePoint.vi" Type="VI" URL="../../AlexeySubVi/VanDerPauw/MeasureVDP_onePoint.vi"/>
-			<Item Name="NML Data Acq Globals.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/NML Data Acq Globals.vi"/>
-			<Item Name="NML VISA Bus Scan.vi" Type="VI" URL="../../New NML Data Acq/NML VISA Bus Scan.vi"/>
 			<Item Name="OperationMode.ctt" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Type Definitions.llb/OperationMode.ctt"/>
 			<Item Name="Prepend &apos;+&apos;  - VIServer Example.vi" Type="VI" URL="../../NHMFL Optics/xwei previous work/Sub VI&apos;s/Server/server.llb/Prepend &apos;+&apos;  - VIServer Example.vi"/>
-			<Item Name="Private.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Private.ctl"/>
-			<Item Name="Public.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Public.ctl"/>
-			<Item Name="Scan Instrument Info.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Scan Instrument Info.vi"/>
-			<Item Name="Scan Output.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/Scan Output.ctl"/>
-			<Item Name="Set VI Ref.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Set VI Ref.vi"/>
-			<Item Name="SetupGlobals.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/SetupGlobals.vi"/>
 			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SIM900 Module Comm.vi" Type="VI" URL="../../New NML Data Acq/Instruments/SubVIs/SIM900 Module Comm.vi"/>
-			<Item Name="SIM900 Module Write.vi" Type="VI" URL="../../New NML Data Acq/Instruments/SubVIs/SIM900 Module Write.vi"/>
-			<Item Name="SIM921 Delete Curve.vi" Type="VI" URL="../../New NML Data Acq/Instruments/SubVIs/SIM921 Delete Curve.vi"/>
-			<Item Name="SystemCheckBox-resize.ctl" Type="VI" URL="../../New NML Data Acq/Sub Controls/SystemCheckBox-resize.ctl"/>
-			<Item Name="Variant2Integer.vi" Type="VI" URL="../../New NML Data Acq/SubVIs/Variant2Integer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
