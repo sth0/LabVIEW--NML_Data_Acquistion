@@ -1497,7 +1497,6 @@
 			<Item Name="Global Varibal Control.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Global Varibal Control.vi"/>
 			<Item Name="gStatus.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gStatus.vi"/>
 			<Item Name="gTemperature.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gTemperature.vi"/>
-			<Item Name="K2450 Read Current.vi" Type="VI" URL="../../VISA stuff/Misc Extras/Keithley 2450 Sweep/K2450 Read Current.vi"/>
 			<Item Name="lib67xx.framework" Type="Document" URL="lib67xx.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
