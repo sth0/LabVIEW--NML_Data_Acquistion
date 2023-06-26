@@ -1,0 +1,18 @@
+----------    AH Bridge: Set data and Time (To remove 'RTC WAS RESET' message)  
+Write to VISA, GPIB0::27::INSTR, STORE DATE 2020,1,27
+Write to VISA, GPIB0::27::INSTR, STORE TIME 12, 45, 27
+----------    AH Bridge: Save GPIB address   
+Write to VISA, GPIB::27::INSTR, FILE STORE GPIB USERPON
+----------    LakeShore 340 controller: change heater power (0-5, 0: off)  
+Write to VISA, GPIB::12::INSTR, RANGE 0
+----------    Scheduled T-control for the He3 system   
+Wait for 12 hour
+Set Temperature LS336 ( GPIB0::12::INSTR ) 45 K at 0 K/min, Output 1
+Wait for 60 s
+Wait for Temperature Less than 1.8 K Sensor C of LS336 ( GPIB0::14::INSTR ) Timeout 30 min
+Wait for 60 min
+Set Temperature LS336 ( GPIB0::12::INSTR ) 0.1 K at 0 K/min, Output 1
+----------    Motor control (use Instrumet:Set:MotorControl command structure)  
+Set MotorControl ( BLM ) 12345 0.2
+Wait for VI value localhost, BLM_ManualControl.vi, BLM Position, Within, 12345, 10 min
+END SEQUENCE

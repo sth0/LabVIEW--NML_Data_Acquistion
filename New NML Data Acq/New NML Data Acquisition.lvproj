@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="CCSymbols" Type="Str">OS,Mac;</Property>
 	<Property Name="HideVILib" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -90,6 +90,7 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -154,7 +155,7 @@
 				<Item Name="VISA Serial Break (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Instr).vi"/>
 				<Item Name="VISA Serial Break (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Serial Instr).vi"/>
 				<Item Name="VISA Serial Break.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break.vi"/>
-				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
+				<Item Name="Wait for RQS.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -188,6 +189,7 @@
 			<Item Name="Increment Filename.vi" Type="VI" URL="../../Sub VIs/Increment Filename.vi"/>
 			<Item Name="LV Versions Enum.ctl" Type="VI" URL="../../Sub Controls/LV Versions Enum.ctl"/>
 			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
+			<Item Name="M81moduleREADandFormat.vi" Type="VI" URL="../../VISA stuff/M81moduleREADandFormat.vi"/>
 			<Item Name="Make VISA Name.vi" Type="VI" URL="../../VISA stuff/Make VISA Name.vi"/>
 			<Item Name="mS Timer+.vi" Type="VI" URL="../../Sub VIs/mS Timer+.vi"/>
 			<Item Name="NML Assert Ren.vi" Type="VI" URL="../../VISA stuff/NML Assert Ren.vi"/>
@@ -198,6 +200,7 @@
 			<Item Name="NML VISA Close.vi" Type="VI" URL="../../VISA stuff/NML VISA Close.vi"/>
 			<Item Name="NML VISA Open Conditional.vi" Type="VI" URL="../../VISA stuff/NML VISA Open Conditional.vi"/>
 			<Item Name="NML VISA Open.vi" Type="VI" URL="../../VISA stuff/NML VISA Open.vi"/>
+			<Item Name="NML VISA Send Multiple Commands.vi" Type="VI" URL="../../VISA stuff/NML VISA Send Multiple Commands.vi"/>
 			<Item Name="Parse IDN String.vi" Type="VI" URL="../../VISA stuff/Parse IDN String.vi"/>
 			<Item Name="Prepend Space.vi" Type="VI" URL="../../Sub VIs/Prepend Space.vi"/>
 			<Item Name="Read Control.vi" Type="VI" URL="../../Sub VIs/Read Control.vi"/>
@@ -218,6 +221,7 @@
 			<Item Name="Test and Get Data.vi" Type="VI" URL="../../VISA stuff/Test and Get Data.vi"/>
 			<Item Name="Trim Filename.vi" Type="VI" URL="../../Sub VIs/Trim Filename.vi"/>
 			<Item Name="VISA GPIB Write-Read.vi" Type="VI" URL="../../VISA stuff/VISA GPIB Write-Read.vi"/>
+			<Item Name="VISA IDN M81 Fix.vi" Type="VI" URL="../../VISA stuff/VISA IDN M81 Fix.vi"/>
 			<Item Name="VISA IDN SIM900 Fix.vi" Type="VI" URL="../../VISA stuff/VISA IDN SIM900 Fix.vi"/>
 			<Item Name="VISA IDN SX199 Fix.vi" Type="VI" URL="../../VISA stuff/VISA IDN SX199 Fix.vi"/>
 			<Item Name="VISA Session Status.ctl" Type="VI" URL="../../Sub Controls/VISA Session Status.ctl"/>

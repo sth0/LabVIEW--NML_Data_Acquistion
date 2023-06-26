@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="NI.SortType" Type="Int">1</Property>
@@ -52,6 +52,12 @@
 		<Item Name="Perf Meter.vi" Type="VI" URL="../../Perf Meter.vi"/>
 		<Item Name="Probe cooling rate.vi" Type="VI" URL="../../Probe cooling rate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Configure Trigger Model.vi" Type="VI" URL="/&lt;instrlib&gt;/KeithleyDMM7510/Raptor/Keithley 2450/Public/Configure/Configure Trigger Model.vi"/>
+				<Item Name="Fetch (Measurements).vi" Type="VI" URL="/&lt;instrlib&gt;/KeithleyDMM7510/Raptor/Keithley 2450/Public/Data/Low Level/Fetch (Measurements).vi"/>
+				<Item Name="Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/KeithleyDMM7510/Raptor/Keithley 2450/Public/Data/Low Level/Initiate.vi"/>
+				<Item Name="Wait for Operation Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/KeithleyDMM7510/Raptor/Keithley 2450/Public/Data/Low Level/Wait for Operation Complete.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -248,6 +254,7 @@
 				<Item Name="AI.SetScarabMaxAddress.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Settings/AI/AI.SetScarabMaxAddress.vi"/>
 				<Item Name="AI.SetTaskPretrigger.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Settings/AI/AI.SetTaskPretrigger.vi"/>
 				<Item Name="AI.SetTaskTiming.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Settings/AI/AI.SetTaskTiming.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Boards Open Now.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/_LVRLP/Open.llb/Boards Open Now.vi"/>
@@ -262,8 +269,6 @@
 				<Item Name="CFStringRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/CFString.llb/CFStringRef.ctl"/>
 				<Item Name="CFURLCopyFileSystemPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/CFURLCopyFileSystemPath.vi"/>
 				<Item Name="CFURLCreateWithFileSystemPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/CFURLCreateWithFileSystemPath.vi"/>
-				<Item Name="CFURLCreateWithString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/CFURLCreateWithString.vi"/>
-				<Item Name="CFURLGetString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/CFURLGetString.vi"/>
 				<Item Name="CFURLRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/CFURLRef.ctl"/>
 				<Item Name="Check 621x Firmware Version.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Check 621x Firmware Version.vi"/>
 				<Item Name="check copyright.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/check copyright.vi"/>
@@ -892,7 +897,6 @@
 				<Item Name="Initialize Output Scarab.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/Scarab/Initialize Output Scarab.vi"/>
 				<Item Name="Initialize Scarabs.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/Scarab/Initialize Scarabs.vi"/>
 				<Item Name="Insert Queue Element.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Insert Queue Element.vi"/>
-				<Item Name="InternetConfigLaunchURL.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/InternetConfigLaunchURL.vi"/>
 				<Item Name="LabVIEWSMTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/smtpClient/LabVIEWSMTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="Lookup Board Model.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Lookup Board Model.vi"/>
@@ -1129,6 +1133,7 @@
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_SMTPEmail.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SMTP/NI_SMTPEmail.lvlib"/>
+				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Normalize Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Normalize Waveform.vi"/>
 				<Item Name="Not A Notifier.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/notifier.llb/Not A Notifier.vi"/>
 				<Item Name="Not A Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Not A Queue.vi"/>
@@ -1141,6 +1146,7 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="Open Sessions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/visa.llb/Open Sessions.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
@@ -1462,7 +1468,7 @@
 				<Item Name="VISA Serial Break (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Instr).vi"/>
 				<Item Name="VISA Serial Break (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Serial Instr).vi"/>
 				<Item Name="VISA Serial Break.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break.vi"/>
-				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
+				<Item Name="Wait for RQS.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.vi"/>
 				<Item Name="Wait for Scarab Initialization.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries VIs/Scarab/Wait for Scarab Initialization.vi"/>
 				<Item Name="Wait On Notification.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/notifier.llb/Wait On Notification.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
@@ -1483,12 +1489,6 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="3 way Status.ctl" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Type Definitions.llb/3 way Status.ctl"/>
-			<Item Name="ApplicationServices.framework" Type="Document" URL="ApplicationServices.framework">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Carbon.framework" Type="Document" URL="Carbon.framework">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="CheckAll-Quit.vi" Type="VI" URL="../../NHMFL Optics/Sub VIs/Status Display/CheckAll-Quit.vi"/>
 			<Item Name="CoreFoundation.framework" Type="Document" URL="CoreFoundation.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1497,7 +1497,6 @@
 			<Item Name="Global Varibal Control.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/Global Varibal Control.vi"/>
 			<Item Name="gStatus.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gStatus.vi"/>
 			<Item Name="gTemperature.vi" Type="VI" URL="../../NHMFL Optics/Globals and TypeDefs/gTemperature.vi"/>
-			<Item Name="K2450 Read Current.vi" Type="VI" URL="../../VISA stuff/Misc Extras/Keithley 2450 Sweep/K2450 Read Current.vi"/>
 			<Item Name="lib67xx.framework" Type="Document" URL="lib67xx.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
