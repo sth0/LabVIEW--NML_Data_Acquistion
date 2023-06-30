@@ -4,8 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../../Users/Shared/NML Data Acq/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
-	<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../../Users/Shared/NML Data Acq/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
-	<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../../Users/Shared/NML Data Acq/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
+	<Item Name="SHGetFolderPath.vi" Type="VI" URL="../SHGetFolderPath.vi"/>
+	<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../SHGetFolderPath Errors.ctl"/>
+	<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../SHGetFolderPath Return Error.vi"/>
 	<Item Name="shfolder.dll" Type="Document" URL="../shfolder.dll"/>
 </Library>
