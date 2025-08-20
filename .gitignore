@@ -1,2 +1,6 @@
-Icon?
+# LabVIEW Files #
+#################
+Builds
 .DS_Store
+Icon?
+*.aliases

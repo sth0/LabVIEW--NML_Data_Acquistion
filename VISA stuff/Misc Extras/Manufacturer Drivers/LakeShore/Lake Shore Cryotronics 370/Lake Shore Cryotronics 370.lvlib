@@ -1,10 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="20008000">
+<Library LVVersion="24008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.Description" Type="Str">AC Resistance Bridge</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)\!!!*Q(C=\&gt;9R5M*1%-&lt;R4]?#5FIL*S&gt;Q:K`!&amp;&lt;D#8I'7EF,M6DM\O!*8W#NQ";Y1`XF:""ORU"H(-@&amp;"_.\,PB^*?+05NIFUI`\3JE_XI&lt;]`PP&gt;HB_&gt;Z(69\(L82`;HTP&lt;^?0P3L`_4]PLW&gt;TX]K_!8`@`^``^`NP`TT8FY=^-/&lt;&gt;$5O'8W@N+!ZT=:@&gt;Z)H?:)H?:)H?:!(?:!(?:!(O:-\O:-\O:-\O:%&lt;O:%&lt;O:(&lt;=3%B&amp;\H):7XF3#:0*EK+*A73Q6#5P#3?R*.Y%A]@F8A34_**0)G()5I]C3@R**\%QWF+0)EH]33?R%/J*MGWE_.*0*28Y!E]A3@Q""[G6/!*!-&amp;E1?'A#!Q&amp;H=&amp;"Y!E]A9&gt;$":\!%XA#4_#B7Y%H]!3?Q".Y/+6&gt;F7C;93@(1REZ(M@D?"S0Y['U()`D=4S/R`%QH2S0YX%1TI2/=1BS4H)'/"]=D_0B49\(]4A?R_.Y['JXS.O6'44$4I\(]"A?QW.Y$!]F:(A-D_%R0);(MD)]BM@Q'"\$QV1S0)&lt;(]"A19V+GFV(-/.%9:!3'B\`WN&amp;C\3^%EVP&lt;[;9Y0KOI"6$V9KA&gt;'^3#I&lt;L$KRKFOC/J#KS[A[M+IPL$KC[C!KIF6"65$&gt;?"V4^P2NL16&lt;5'&lt;UW;UDD9&gt;4PXGA9@$1@P^8LP&gt;4NPN6KP63IP&amp;1P0Z8,0:4&amp;X8;4K&gt;PK^7^_TD&gt;H6=FZ9=LZ^N`&gt;2..OPO&gt;P0Y/NG]X$WMB`QHW\AO`9;V5&gt;@DPV/H;`1'=UULW!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)\!!!*Q(C=\&gt;9R5M*1%-&lt;R4]?#5FIL*S&gt;Q:K`!&amp;&lt;D#8I'7EF,M6DM\O!*8W#NQ";Y1`XF:""ORU"H(-@&amp;"_.\,PB^*?+05NIFUI`\3JE_XI&lt;]`PP&gt;HB_&gt;Z(69\(L82`;HTP&lt;^?0P3L`_4]PLW&gt;TX]K_!8`@`^``^`NP`TT8FY=^-/&lt;&gt;$5O'8W@N+!ZT=:@&gt;Z)H?:)H?:)H?:!(?:!(?:!(O:-\O:-\O:-\O:%&lt;O:%&lt;O:(&lt;=3%B&amp;\H):7XF3#:0*EK+*A73Q6#5P#3?R*.Y%A]@F8A34_**0)G()5I]C3@R**\%QWF+0)EH]33?R%/J*MGWE_.*0*28Y!E]A3@Q""[G6/!*!-&amp;E1?'A#!Q&amp;H=&amp;"Y!E]A9&gt;$":\!%XA#4_#B7Y%H]!3?Q".Y/+6&gt;F7C;93@(1REZ(M@D?"S0Y['U()`D=4S/R`%QH2S0YX%1TI2/=1BS4H)'/"]=D_0B49\(]4A?R_.Y['JXS.O6'44$4I\(]"A?QW.Y$!]F:(A-D_%R0);(MD)]BM@Q'"\$QV1S0)&lt;(]"A19V+GFV(-/.%9:!3'B\`WN&amp;C\3^%EVP&lt;[;9Y0KOI"6$V9KA&gt;'^3#I&lt;L$KRKFOC/J#KS[A[M+IPL$KC[C!KIF6"65$&gt;?"V4^P2NL16&lt;5'&lt;UW;UDD9&gt;4PXGA9@$1@P^8LP&gt;4NPN6KP63IP&amp;1P0Z8,0:4&amp;X8;4K&gt;PK^7^_TD&gt;H6=FZ9=LZ^N`&gt;2..OPO&gt;P0Y/NG]X$WMB`QHW\AO`9;V5&gt;@DPV/H;`1'=UULW!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">2.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">

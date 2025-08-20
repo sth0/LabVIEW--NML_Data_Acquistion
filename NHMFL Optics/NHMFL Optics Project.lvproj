@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">1</Property>
@@ -23,73 +24,16 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Empty 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (EXT)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I8)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I32)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I64)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (String)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U8)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U16)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U64)__ogtk.vi"/>
-				<Item Name="Empty 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Variant)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (CDB)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (CSG)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (CXT)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (DBL)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (EXT)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I8)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I16)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I32)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I64)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (Path)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (SGL)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (String)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U8)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U16)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U32)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (U64)__ogtk.vi"/>
-				<Item Name="Empty 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (Variant)__ogtk.vi"/>
-				<Item Name="Empty Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array (Variant)__ogtk.vi"/>
-				<Item Name="Empty Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array__ogtk.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
+				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="67xx DIO IO.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/67xx DIO IO.ctl"/>
-				<Item Name="67xx Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/67xx Globals.vi"/>
-				<Item Name="621x Board Ref.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/TypeDef/621x Board Ref.ctl"/>
-				<Item Name="621x Board Ref.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/TypeDef/621x Board Ref.vi"/>
-				<Item Name="621x Models.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/TypeDef/621x Models.ctl"/>
 				<Item Name="Abort Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Abort Instrument.vi"/>
-				<Item Name="Add Remote Target Identifier.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Add Remote Target Identifier.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-				<Item Name="AI Channel Info.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/AI Channel Info.ctl"/>
-				<Item Name="AI Range.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/AI Range.ctl"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Bytes At Serial Port.vi"/>
-				<Item Name="Check 621x Firmware Version.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Check 621x Firmware Version.vi"/>
-				<Item Name="check copyright.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/check copyright.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
-				<Item Name="check fusion carrier.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/check fusion carrier.vi"/>
-				<Item Name="check fusion version.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/check fusion version.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -100,155 +44,43 @@
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="config_67xx_load.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_67xx_load.vi"/>
-				<Item Name="config_67xx_save.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_67xx_save.vi"/>
-				<Item Name="config_92xx_load.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_92xx_load.vi"/>
-				<Item Name="config_92xx_save.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_92xx_save.vi"/>
-				<Item Name="config_DIO96_load.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_DIO96_load.vi"/>
-				<Item Name="config_DIO96_save.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_DIO96_save.vi"/>
-				<Item Name="config_ESeries_load.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_ESeries_load.vi"/>
-				<Item Name="config_ESeries_save.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_ESeries_save.vi"/>
-				<Item Name="config_FormatFlatten.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/config_FormatFlatten.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
-				<Item Name="DAC Calibration.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAC Calibration.ctl"/>
-				<Item Name="DAQmxBase 67xx AO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/DAQmxBase 67xx AO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase 67xx CI Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/DAQmxBase 67xx CI Task Type Def.ctl"/>
-				<Item Name="DAQmxBase 67xx CO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/DAQmxBase 67xx CO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase 67xx DIO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/DAQmxBase 67xx DIO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase 67xx Model Strict Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/DAQmxBase 67xx Model Strict Type Def.ctl"/>
-				<Item Name="DAQmxBase 67xx Refnums Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/67xx/Typedefs/DAQmxBase 67xx Refnums Task Type Def.ctl"/>
-				<Item Name="DAQmxBase default config file path.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase default config file path.vi"/>
 				<Item Name="DAQmxBase ensure global data initialized.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase ensure global data initialized.vi"/>
-				<Item Name="DAQmxBase ESeries AI Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries AI Task Type Def.ctl"/>
-				<Item Name="DAQmxBase ESeries AO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries AO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase ESeries CI Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries CI Task Type Def.ctl"/>
-				<Item Name="DAQmxBase ESeries CO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries CO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase ESeries DIO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries DIO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase ESeries Model Strict Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries Model Strict Type Def.ctl"/>
-				<Item Name="DAQmxBase ESeries Refnums Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/DAQmxBase ESeries Refnums Task Type Def.ctl"/>
-				<Item Name="DAQmxBase export signal route typedef.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase export signal route typedef.ctl"/>
-				<Item Name="DAQmxBase get default config file path.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase get default config file path.vi"/>
 				<Item Name="DAQmxBase get dev info.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase get dev info.vi"/>
-				<Item Name="DAQmxBase Global Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase Global Operations.ctl"/>
-				<Item Name="DAQmxBase globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase globals.vi"/>
-				<Item Name="DAQmxBase load task config.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase load task config.vi"/>
 				<Item Name="DAQmxBase Register Map Strict Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase Register Map Strict Type Def.ctl"/>
-				<Item Name="DAQmxBase save task config.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase save task config.vi"/>
-				<Item Name="DAQmxBase SSeries AI Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/DAQmxBase SSeries AI Task Type Def.ctl"/>
-				<Item Name="DAQmxBase SSeries AO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/DAQmxBase SSeries AO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase SSeries CI Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/DAQmxBase SSeries CI Task Type Def.ctl"/>
-				<Item Name="DAQmxBase SSeries CO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/DAQmxBase SSeries CO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase SSeries DIO Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/DAQmxBase SSeries DIO Task Type Def.ctl"/>
-				<Item Name="DAQmxBase SSeries Refnums Task Type Def.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/DAQmxBase SSeries Refnums Task Type Def.ctl"/>
-				<Item Name="DAQmxBase Update Error.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DAQmxBase Update Error.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="DIO-96 Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DIO-96/DIO-96 Globals.vi"/>
-				<Item Name="DIO-96 Refnums.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DIO-96/DIO-96 Refnums.vi"/>
-				<Item Name="DIO96.Typedef.BoardModel.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DIO-96/DIO96VIs.llb/DIO96.Typedef.BoardModel.ctl"/>
-				<Item Name="DIO96.Typedef.PortDirection.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DIO-96/DIO96VIs.llb/DIO96.Typedef.PortDirection.ctl"/>
-				<Item Name="DIO96.Typedef.Refnums.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DIO-96/DIO96VIs.llb/DIO96.Typedef.Refnums.ctl"/>
-				<Item Name="DIO96.Typedef.TaskInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/DIO-96/DIO96VIs.llb/DIO96.Typedef.TaskInfo.ctl"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="ESeries DIO IO.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/ESeries DIO IO.ctl"/>
-				<Item Name="ESeries Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/ESeries Globals.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Devices.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Find Devices.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Flush_Visa_USB.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Flush_Visa_USB.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="Fusion AI.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Typedefs/Fusion AI.ctl"/>
-				<Item Name="Fusion AO.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Typedefs/Fusion AO.ctl"/>
-				<Item Name="Fusion Board Ref.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Typedefs/Fusion Board Ref.ctl"/>
-				<Item Name="Fusion CTR.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Typedefs/Fusion CTR.ctl"/>
-				<Item Name="Fusion DIO.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/Typedefs/Fusion DIO.ctl"/>
-				<Item Name="Fusion2.buildRequestHeader.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2.buildRequestHeader.vi"/>
-				<Item Name="Fusion2.padString.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2.padString.vi"/>
-				<Item Name="Fusion2Parser.popErrorAndReplyHeader.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popErrorAndReplyHeader.vi"/>
-				<Item Name="Fusion2Parser.PopHeader.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.PopHeader.vi"/>
-				<Item Name="Fusion2Parser.popI32.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popI32.vi"/>
-				<Item Name="Fusion2Parser.popString.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popString.vi"/>
-				<Item Name="Fusion2Parser.popU8.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popU8.vi"/>
-				<Item Name="Fusion2Parser.popU8Array.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popU8Array.vi"/>
-				<Item Name="Fusion2Parser.popU16.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popU16.vi"/>
-				<Item Name="Fusion2Parser.popU32.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.popU32.vi"/>
-				<Item Name="Fusion2Parser.pushHeader.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.pushHeader.vi"/>
-				<Item Name="Fusion2Parser.pushI32.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.pushI32.vi"/>
-				<Item Name="Fusion2Parser.pushString.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.pushString.vi"/>
-				<Item Name="Fusion2Parser.pushU8.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.pushU8.vi"/>
-				<Item Name="Fusion2Parser.pushU16.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.pushU16.vi"/>
-				<Item Name="Fusion2Parser.pushU32.vi" Type="VI" URL="/&lt;vilib&gt;/_dmxb/F2XNode/Support/messaging/Fusion2VIs.llb/Fusion2Parser.pushU32.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="get 92xx info.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/get 92xx info.vi"/>
-				<Item Name="get 92xx Ranges.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/get 92xx Ranges.vi"/>
-				<Item Name="Get 621x info.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Get 621x info.vi"/>
 				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
-				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Lookup Board Model.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Lookup Board Model.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MemStats.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/MemStats.vi"/>
-				<Item Name="MSeries.Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Globals.vi"/>
-				<Item Name="MSeries.Typedef.AIChannelInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AIChannelInfo.ctl"/>
-				<Item Name="MSeries.Typedef.AIIntervalCalConstant.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AIIntervalCalConstant.ctl"/>
-				<Item Name="MSeries.Typedef.AIModeCalConstant.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AIModeCalConstant.ctl"/>
-				<Item Name="MSeries.Typedef.AIRange.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AIRange.ctl"/>
-				<Item Name="MSeries.Typedef.AITask.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AITask.ctl"/>
-				<Item Name="MSeries.Typedef.AnalogTrigger.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AnalogTrigger.ctl"/>
-				<Item Name="MSeries.Typedef.AOChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AOChannel.ctl"/>
-				<Item Name="MSeries.Typedef.AOReferenceOffset.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AOReferenceOffset.ctl"/>
-				<Item Name="MSeries.Typedef.AOStartTrigger.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AOStartTrigger.ctl"/>
-				<Item Name="MSeries.Typedef.AOTask.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AOTask.ctl"/>
-				<Item Name="MSeries.Typedef.AOUpdateClock.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.AOUpdateClock.ctl"/>
-				<Item Name="MSeries.Typedef.ConvertClock.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.ConvertClock.ctl"/>
-				<Item Name="MSeries.Typedef.CTRApplication.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRApplication.ctl"/>
-				<Item Name="MSeries.Typedef.CTRDecodingType.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRDecodingType.ctl"/>
-				<Item Name="MSeries.Typedef.CTREncoderType.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTREncoderType.ctl"/>
-				<Item Name="MSeries.Typedef.CTREncTask.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTREncTask.ctl"/>
-				<Item Name="MSeries.Typedef.CTRLoadData.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRLoadData.ctl"/>
-				<Item Name="MSeries.Typedef.CTRPolarity.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRPolarity.ctl"/>
-				<Item Name="MSeries.Typedef.CTRPositionUnitsAngular.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRPositionUnitsAngular.ctl"/>
-				<Item Name="MSeries.Typedef.CTRPositionUnitsLinear.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRPositionUnitsLinear.ctl"/>
-				<Item Name="MSeries.Typedef.CTRSelection.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRSelection.ctl"/>
-				<Item Name="MSeries.Typedef.CTRSourceSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRSourceSelect.ctl"/>
-				<Item Name="MSeries.Typedef.CTRTask.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRTask.ctl"/>
-				<Item Name="MSeries.Typedef.CTRTriggerMode.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRTriggerMode.ctl"/>
-				<Item Name="MSeries.Typedef.CTRUpDownMode.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRUpDownMode.ctl"/>
-				<Item Name="MSeries.Typedef.CTRZIndexPolarity.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.CTRZIndexPolarity.ctl"/>
-				<Item Name="MSeries.Typedef.DIOTask.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.DIOTask.ctl"/>
-				<Item Name="MSeries.Typedef.DMAInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.DMAInfo.ctl"/>
-				<Item Name="MSeries.Typedef.Model.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.Model.ctl"/>
-				<Item Name="MSeries.Typedef.PFILine.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.PFILine.ctl"/>
-				<Item Name="MSeries.Typedef.ReferenceTrigger.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.ReferenceTrigger.ctl"/>
-				<Item Name="MSeries.Typedef.Refnums.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.Refnums.ctl"/>
-				<Item Name="MSeries.Typedef.ScanClock.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.ScanClock.ctl"/>
-				<Item Name="MSeries.Typedef.StartTrigger.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.StartTrigger.ctl"/>
-				<Item Name="MSeries.Typedef.TimingMode.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/MSeries/MSeriesVIs.llb/MSeries.Typedef.TimingMode.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
@@ -261,15 +93,10 @@
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
 				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Run Instrument.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
-				<Item Name="Semaphore Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB Action.ctl"/>
-				<Item Name="Semaphore Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB.vi"/>
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Read.vi"/>
 				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Write.vi"/>
 				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
@@ -281,32 +108,14 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SSeries DIO IO.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/SSeries DIO IO.ctl"/>
-				<Item Name="SSeries Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/SSeries Globals.vi"/>
-				<Item Name="SSeries Model.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/SSeries/Typedefs/SSeries Model.ctl"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
-				<Item Name="Timing Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/Timing Mode.ctl"/>
-				<Item Name="Translate USB Error.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Translate USB Error.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
-				<Item Name="Update Clock.ctl" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/ESeries/Typedefs/Update Clock.ctl"/>
-				<Item Name="Update Device Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/Config/Update Device Globals.vi"/>
-				<Item Name="USB Fusion Globals.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/USB Fusion Globals.vi"/>
-				<Item Name="USB-92xx.Ensure VISA reference.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-92xx/USB-92xx.Ensure VISA reference.vi"/>
-				<Item Name="USB-621x Download SLIC.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Download SLIC.vi"/>
-				<Item Name="USB-621x Download STC3.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Download STC3.vi"/>
-				<Item Name="USB-621x FPGA Main.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x FPGA Main.vi"/>
-				<Item Name="USB-621x FPGA reset.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x FPGA reset.vi"/>
-				<Item Name="USB-621x Read FW From Bin File.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Read FW From Bin File.vi"/>
-				<Item Name="USB-621x Start SLIC Programmer.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Start SLIC Programmer.vi"/>
-				<Item Name="USB-621x Stop SLIC Programmer.vi" Type="VI" URL="/&lt;vilib&gt;/_DAQmxBase/Internals/USB-621x/USB-621x Stop SLIC Programmer.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="VariantFlattenExp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantFlattenExp.vi"/>
 				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/viRef buffer.vi"/>
 				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
@@ -314,7 +123,7 @@
 				<Item Name="VISA Serial Break (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Instr).vi"/>
 				<Item Name="VISA Serial Break (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Serial Instr).vi"/>
 				<Item Name="VISA Serial Break.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break.vi"/>
-				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
+				<Item Name="Wait for RQS.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
@@ -501,7 +310,7 @@
 			<Item Name="LSCI 340 Utility Default Instrument Setup.vi" Type="VI" URL="../../VISA stuff/Misc Extras/Manufacturer Drivers/LakeShore/LakeShore 340/lsci340u.llb/LSCI 340 Utility Default Instrument Setup.vi"/>
 			<Item Name="LTC change to stable temp.vi" Type="VI" URL="../../VISA stuff/LTC change to stable temp.vi"/>
 			<Item Name="LV Versions Enum.ctl" Type="VI" URL="../../Sub Controls/LV Versions Enum.ctl"/>
-			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Magnet_ID.vi" Type="VI" URL="../Sub VIs/Field/Magnet_ID.vi"/>
 			<Item Name="Make Igor Labels.vi" Type="VI" URL="../../Sub VIs/Make Igor Labels.vi"/>
 			<Item Name="Make VISA Name.vi" Type="VI" URL="../../VISA stuff/Make VISA Name.vi"/>

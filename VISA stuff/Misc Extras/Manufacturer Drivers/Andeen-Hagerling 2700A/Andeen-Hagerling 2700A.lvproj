@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="20008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
+<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="24008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for LabVIEW Plug and Play instrument drivers.</Property>
@@ -54,6 +54,7 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -85,29 +86,28 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{FA02BA27-A83F-11E1-992A-C82A144278CA}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path"></Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simple Measure.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Measure/Simple Measure.app</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Measure/Simple Measure.exe</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Measure/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Measure</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].itemID" Type="Str">{275BCF9D-1160-11DD-8698-D5D5B522BDAF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Andeen-Hagerling 2700A.lvlib/Public/Utility</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Andeen-Hagerling 2700A.lvlib/Private</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples</Property>
-				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples/Simple Measurement.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
@@ -134,12 +134,13 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Andeen-Hagerling 2700A.lvlib/Public/Data</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_companyName" Type="Str">Andeen-Hagerling, Inc.</Property>
 				<Property Name="TgtF_internalName" Type="Str">com.company.SimpleMeasure</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2007 Andeen-Hagerling, Inc.</Property>
 				<Property Name="TgtF_productName" Type="Str">Simple Measure</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8380DE2E-91BB-413C-BF0E-BEEDF9CDCFF2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Simple Measure.app</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Simple Measure.exe</Property>
 			</Item>
 			<Item Name="Deviation Mode" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{6E20B23D-FF58-4EF9-901C-134C4D41DF85}</Property>
@@ -157,20 +158,22 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{FA03C34F-A83F-11E1-992A-C82A144278CA}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path"></Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Deviation Mode.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Deviation Mode/Deviation Mode.app</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Deviation Mode/Deviation Mode.exe</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Deviation Mode/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Deviation Mode</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].itemID" Type="Str">{275BCF9D-1160-11DD-8698-D5D5B522BDAF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Andeen-Hagerling 2700A.lvlib/Public/Data</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
@@ -180,21 +183,18 @@
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Andeen-Hagerling 2700A.lvlib/Private</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples</Property>
-				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples/Simple Measurement.vi</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].type" Type="Str">Source</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Examples/Deviation Mode.vi</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">Source</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -216,12 +216,13 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Andeen-Hagerling 2700A.lvlib/Public/Configure/Analog Out</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_companyName" Type="Str">Andeen-Hagerling, Inc.</Property>
 				<Property Name="TgtF_internalName" Type="Str">com.company.DeviationMode</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2007 Andeen-Hagerling, Inc.</Property>
 				<Property Name="TgtF_productName" Type="Str">Deviation Mode</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9E96E12E-9DAB-44E2-9569-F1CEAC848775}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Deviation Mode.app</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Deviation Mode.exe</Property>
 			</Item>
 			<Item Name="AH2700A" Type="Installer">
 				<Property Name="arpCompany" Type="Str">Andeen-Hagerling, Inc.</Property>
@@ -272,7 +273,8 @@
 				<Property Name="FileInfo[5].FileTag" Type="Str">{94C7529C-0089-4797-A750-96E69F1E37CE}</Property>
 				<Property Name="FileInfo[5].Type" Type="Int">3</Property>
 				<Property Name="FileInfo[5].TypeID" Type="Ref">/My Computer/Build Specifications/Deviation Mode</Property>
-				<Property Name="InstSpecVersion" Type="Str">8218002</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">24318001</Property>
 				<Property Name="LicenseFile" Type="Ref"></Property>
 				<Property Name="OSCheck" Type="Int">0</Property>
 				<Property Name="OSCheck_Vista" Type="Bool">false</Property>
