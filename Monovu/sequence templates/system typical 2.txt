@@ -12,7 +12,9 @@ Wait for 60 s
 Wait for Temperature Less than 1.8 K Sensor C of LS336 ( GPIB0::14::INSTR ) Timeout 30 min
 Wait for 60 min
 Set Temperature LS336 ( GPIB0::12::INSTR ) 0.1 K at 0 K/min, Output 1
-----------    Motor control (use Instrumet:Set:MotorControl command structure)  
-Set MotorControl ( BLM ) 12345 0.2
+----------    Motor control to a set point. Next line is to wait until the target is reached.  
+Set MotorControl ( BLM ) 12345_timeout_speed=0 0.2
 Wait for VI value localhost, BLM_ManualControl.vi, BLM Position, Within, 12345, 10 min
+----------    Motor control using the built-in motor position wait option (12 min timeout, 0.2 speed)  
+Set MotorControl ( BLM ) 12345_timeout_speed=0 0.2
 END SEQUENCE

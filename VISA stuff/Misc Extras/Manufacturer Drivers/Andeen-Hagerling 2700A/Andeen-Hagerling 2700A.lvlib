@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
+<Library LVVersion="25008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 
 &lt;fill in information about manufacturer, model, and type of the instrument&gt;.</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)J!!!*Q(C=\&gt;3R=3*"%)8B*Z7-=]F!21K&gt;!CG11K?!+Z-58AKE1!K&gt;!CFAYO\^/^M#Y1B(+NV6;9&gt;"]';GZW.XN&gt;)Y`EAPGBY&gt;FU_0?8S]ZHHTBQZOXS`P\4LJLEVD3?^T+\;-48@L,^@3^_OP^;&gt;FWGXO'(`AV[@(\`DP_0]^`O"ATNP$3&gt;^]3%^$3C_[[5G0]?OG)C`S)C`S)C^SEZP=Z#9XO=G40-G40-G40-G$0-C$0-C$0-B()R?ZS%8/73EW,T9KCB9&amp;CMF16,Q6HM*4?!I08V6Y#E`B+4S&amp;BSEK0)7H]"3?QM-S&amp;:\#5XA+4_'BV*$5;/2Y#A`F:4T'9TT'9TRM+?-R!,/:+7S+Q*!:."_-RXC-BY]S(O-R(O-R(I:F0-:D0-:D0#Q::]6$-T&gt;S0*22YEE]C3@R*"Z++`%EHM34?")0WSHR**Y%E7S9&amp;)?A:&amp;%S)@G3?")0@Z2Y%E`C34S*B[&amp;RB8+=G6ET.X)]A3@Q"*\!%XAII=!4?!*0Y!E]F&amp;8A#4S"*`!%(L:3Y!E]A3?!"*OSP9*CQ=*A5B!%(F\D&lt;IFRF4QE-6L`;SYXKPI'6.^9[BN'@3/I,\$[QKEPC0J%KU_A_M3I@\$[B[C"[IX6"&gt;54&gt;?&lt;^2$`3$`1^@5@@UD@U.8UV,`XCC?@T7;@43=@D59@$1@P^8LP&gt;4NPN6JP.2OPV7KP6[PKU?K5NR^0\=_G.TT`2F_@3P`"MV,/G$Y^ZTN&amp;@JN8$&lt;1!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)J!!!*Q(C=\&gt;3R=3*"%)8B*Z7-=]F!21K&gt;!CG11K?!+Z-58AKE1!K&gt;!CFAYO\^/^M#Y1B(+NV6;9&gt;"]';GZW.XN&gt;)Y`EAPGBY&gt;FU_0?8S]ZHHTBQZOXS`P\4LJLEVD3?^T+\;-48@L,^@3^_OP^;&gt;FWGXO'(`AV[@(\`DP_0]^`O"ATNP$3&gt;^]3%^$3C_[[5G0]?OG)C`S)C`S)C^SEZP=Z#9XO=G40-G40-G40-G$0-C$0-C$0-B()R?ZS%8/73EW,T9KCB9&amp;CMF16,Q6HM*4?!I08V6Y#E`B+4S&amp;BSEK0)7H]"3?QM-S&amp;:\#5XA+4_'BV*$5;/2Y#A`F:4T'9TT'9TRM+?-R!,/:+7S+Q*!:."_-RXC-BY]S(O-R(O-R(I:F0-:D0-:D0#Q::]6$-T&gt;S0*22YEE]C3@R*"Z++`%EHM34?")0WSHR**Y%E7S9&amp;)?A:&amp;%S)@G3?")0@Z2Y%E`C34S*B[&amp;RB8+=G6ET.X)]A3@Q"*\!%XAII=!4?!*0Y!E]F&amp;8A#4S"*`!%(L:3Y!E]A3?!"*OSP9*CQ=*A5B!%(F\D&lt;IFRF4QE-6L`;SYXKPI'6.^9[BN'@3/I,\$[QKEPC0J%KU_A_M3I@\$[B[C"[IX6"&gt;54&gt;?&lt;^2$`3$`1^@5@@UD@U.8UV,`XCC?@T7;@43=@D59@$1@P^8LP&gt;4NPN6JP.2OPV7KP6[PKU?K5NR^0\=_G.TT`2F_@3P`"MV,/G$Y^ZTN&amp;@JN8$&lt;1!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
